@@ -115,67 +115,12 @@ ul#statisticsWrapper li p {
 
 
 
-/***** Channel Location Diagram START *****/
+/***** Domain Details Diagram START *****/
 
-main#content div#dashboard section#visualizations figure#channelLocationDiagram.figure {
+main#content div#dashboard section#visualizations figure#domainDetailsDiagram.figure table thead th {
 
-    grid-template-columns: 350px auto;
-
-}
-
-main#content div#dashboard section#visualizations figure#channelLocationDiagram.figure div#titleWrapper {
-
-    grid-column: 1/3;
+    background-color: white;
 
 }
 
-main#content div#dashboard section#visualizations figure#channelLocationDiagram.figure div#figureWrapper {
-
-    grid-column: 2;
-
-}
-
-main#content div#dashboard section#visualizations figure#channelLocationDiagram.figure div#contentWrapper {
-
-    padding: 10px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    grid-column: 1;
-    grid-row: 2;
-
-}
-
-main#content div#dashboard section#visualizations figure#channelLocationDiagram.figure div#contentWrapper input#searchChannelsLocation {
-
-    width: 100%;
-
-}
-
-/***** Channel Location Diagram END *****/
-
-
-
-/***** Channel Details Diagram START *****/
-
-main#content div#dashboard section#visualizations figure#channelDetailsDiagram.figure div#contentWrapper {
-
-    padding: 10px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-
-}
-
-main#content div#dashboard section#visualizations figure#channelDetailsDiagram.figure div#contentWrapper p#channelDetailsCounter {
-
-    display: inline-block;
-    padding-left: 10px;
-
-}
-
-main#content div#dashboard section#visualizations figure#channelDetailsDiagram.figure div#contentWrapper tbody td {
-
-    padding: 7px 10px;
-
-}
-
-/***** Channel Details Diagram END *****/
+/***** Domain Details Diagram END *****/
