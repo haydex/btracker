@@ -1,3 +1,3 @@
 # btracker
 
-https://haydex.github.io/btracker/posting-frequency.html
+https://haydex.github.io/btracker/domain-analysis.html
