@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             setTimeout(this.timeout.bind(this), 3000);
             this.sideMenuButton.addEventListener("click", this.sideMenuButtonClickHandler.bind(this));
-            this.datePickerButton.addEventListener("click", this.datePickerButtonClickHandler.bind(this));
+            // this.datePickerButton.addEventListener("click", this.datePickerButtonClickHandler.bind(this));
 
             for (var i = 0; i < this.figureTables.length; i++) {
 

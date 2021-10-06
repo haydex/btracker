@@ -121,7 +121,7 @@ ul#statisticsWrapper li p {
     border-radius: var(--radius5);
     background-color: var(--darkblue-10);
     padding: 4px 8px;
-    color: white;
+    color: var(--darkblue-100);
 }
 
 #newdatepicker:hover {
