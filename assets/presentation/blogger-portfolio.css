@@ -119,7 +119,7 @@ ul#statisticsWrapper li p {
     font-weight: 400;
     border: 2px solid transparent;
     border-radius: var(--radius5);
-    background-color: var(--greyishDark);
+    background-color: var(--darkblue-10);
     padding: 4px 8px;
     color: white;
 }

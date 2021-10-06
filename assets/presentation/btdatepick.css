@@ -94,8 +94,8 @@
     width: var(--litepicker-month-width);
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
-    -webkit-box-shadow: 0px 0px 36px 17px rgba(0,0,0,0.15); 
-    box-shadow: 0px 0px 36px 17px rgba(0,0,0,0.15);
+    -webkit-box-shadow:0px 0px 100px var(--blackishShadow);
+    box-shadow: 0px 0px 100px var(--blackishShadow);
     margin: 20px 0 0 0;
     border-radius: 10px;
 }
