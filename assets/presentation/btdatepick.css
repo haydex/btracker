@@ -65,11 +65,11 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     background-color: var(--litepicker-container-months-color-bg);
-    border-radius: 10px;
     width: calc(var(--litepicker-month-width) + 10px);
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     margin-top: 5px;
+    border-radius: 10px;
 }
 
 .litepicker .container__months.columns-2 {
@@ -93,7 +93,11 @@
     padding: 10px 10px 40px 10px;
     width: var(--litepicker-month-width);
     -webkit-box-sizing: content-box;
-    box-sizing: content-box
+    box-sizing: content-box;
+    -webkit-box-shadow: 0px 0px 36px 17px rgba(0,0,0,0.15); 
+    box-shadow: 0px 0px 36px 17px rgba(0,0,0,0.15);
+    margin: 20px 0 0 0;
+    border-radius: 10px;
 }
 
 .litepicker .container__months .month-item-header {
@@ -398,7 +402,7 @@
     white-space: nowrap;
     font-size: 11px;
     pointer-events: none;
-    visibility: hidden
+    visibility: hidden;
 }
 
 .litepicker .container__tooltip:before {

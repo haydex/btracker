@@ -113,6 +113,22 @@ ul#statisticsWrapper li p {
 
 /***** Posting Frequecy Diagram END *****/
 
+/* date picker start*/
+#newdatepicker {
+    font-size: var(--size17);
+    font-weight: 400;
+    border: 2px solid transparent;
+    border-radius: var(--radius5);
+    background-color: var(--greyishDark);
+    padding: 4px 8px;
+    color: white;
+}
+
+#newdatepicker:hover {
+    cursor: pointer;
+}
+/* date picker end*/
+
 
 
 /***** Content Diversity Diagram START *****/

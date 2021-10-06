@@ -14,7 +14,6 @@ const picker = new Litepicker({
     element: document.getElementById('newdatepicker'),
     singleMode: false,
     autoApply: false,
-    resetButton: true,
     showTooltip: false,
     setup: (picker) => {
         picker.on('selected', (date1, date2) => {
@@ -23,5 +22,5 @@ const picker = new Litepicker({
         });
     },
     buttonText: {"apply":"Update"},
-    dropdowns: {"minYear": 1921,"maxYear": 2040,"months":true,"years":true},
+    dropdowns: {"minYear": 1990,"maxYear": 2040,"months":true,"years":true},
 })
