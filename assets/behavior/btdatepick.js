@@ -22,5 +22,5 @@ const picker = new Litepicker({
         });
     },
     buttonText: {"apply":"Update"},
-    dropdowns: {"minYear": 1990,"maxYear": 2040,"months":true,"years":true},
+    dropdowns: {"minYear": 1990,"maxYear": 2025,"months":true,"years":true},
 })
